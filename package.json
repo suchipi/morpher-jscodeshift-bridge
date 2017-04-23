@@ -1,0 +1,30 @@
+{
+  "name": "morpher-jscodeshift-bridge",
+  "version": "1.0.0",
+  "description": "A bridge to run jscodeshift codemods as morpher transforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suchipi/morpher-jscodeshift-bridge.git"
+  },
+  "keywords": [
+    "morpher",
+    "jscodeshift",
+    "codemod",
+    "transform",
+    "bridge",
+    "adapter"
+  ],
+  "author": "Stephen Scott <me@suchipi.com> (http://suchipi.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suchipi/morpher-jscodeshift-bridge/issues"
+  },
+  "homepage": "https://github.com/suchipi/morpher-jscodeshift-bridge#readme",
+  "dependencies": {
+    "jscodeshift": "^0.3.30"
+  }
+}
